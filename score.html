@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Score Keeper</title>
+	<link rel="shortcut icon" type="image/x-icon" href="icons8-scoreboard-64.png">
+	<link rel="stylesheet" type="text/css" href="score.css">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+</head>
+<body>
+	<content>
+		<div id="display">
+			<h1>
+				Home 
+				<span id="displayPlayerOne">0</span> 
+				: 
+				<span id="displayPlayerTwo">0</span>
+				Guest
+			</h1>
+			<p>First to <span id="playingToNumber">5</span> wins!</p>
+		</div>
+		<div id="inputField">
+			<input type="number"><br>
+			<div id="playerButtons">
+				<button id="playerOne">Player One <i class="far fa-plus-square"></i></button>
+				<button id="playerTwo">Player Two <i class="far fa-plus-square"></i></button><br>
+			</div>
+			<button id="resetButton">Reset</button>
+
+		</div>
+	</content>
+
+	<!-- scripts -->
+	<script src="scoreKeeper.js" type="text/javascript"></script>
+
+</body>
+</html>
